@@ -1,0 +1,6 @@
+/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+/road-loop.mp4
+  Cache-Control: public, max-age=86400
+/*.webp
+  Cache-Control: public, max-age=86400
