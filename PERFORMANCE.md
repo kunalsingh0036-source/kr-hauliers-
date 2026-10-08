@@ -1,8 +1,8 @@
 # Performance and enquiries
 
-Primary action: request a transport quote. Netlify Forms receives transport-inquiry submissions. Check the Netlify project Forms dashboard for actual enquiries; verify delivery and notification settings with a real authorised enquiry before relying on email notifications.
+Primary action: request a transport quote. Formspree endpoint https://formspree.io/f/mbgdordb receives transport-inquiry submissions and is configured for info@krhauliers.co.ke. Verify a labelled test in the Formspree dashboard and recipient inbox before relying on delivery.
 
-No third-party analytics account is connected. A quote_request_success dataLayer event is emitted only after Netlify acknowledges the POST, without form contents or personal data. A future analytics integration can consume it. This event is not yet collected centrally.
+No third-party analytics account is connected. A quote_request_success dataLayer event is emitted only after Formspree acknowledges the POST, without form contents or personal data. A future analytics integration can consume it. This event is not yet collected centrally.
 
 Fonts are Latin-subset WOFF2, versioned and separately cached. Below-fold imagery is lazy loaded. Film is loaded near its section, paused off-screen, and does not autoplay for reduced motion or data saver/2G users. The deliberate scroll intro remains skippable.
 
